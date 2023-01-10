@@ -1,0 +1,24 @@
+{
+  "name": "trendingblogs",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v16.17.0",
+    "npm": "8.15.0",
+    "yarn": "1.22.19"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "web": "npm run --prefix ./web.trendingblogs",
+    "server": "npm run --prefix ./server.trendingblogs",
+    "start": "concurrently \"npm run server\" \"npm run web\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "repository": {
+    "url": "https://github.com/asmdhabibullah/trendingblogs.git",
+    "web": "https://github.com/asmdhabibullah/web.trendingblogs",
+    "server": "https://github.com/asmdhabibullah/server.trendingblogs"
+  }
+}
