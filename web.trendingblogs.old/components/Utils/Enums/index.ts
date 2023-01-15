@@ -1,0 +1,9 @@
+export enum classes {
+    TRAVEL = "TRAVEL",
+    HEALTH = "HEALTH",
+    LISTING = "LISTING",
+    TRENDING = "TRENDING",
+    LIFESTYLE = "LIFESTYLE",
+    TECHNOLOGY = "TECHNOLOGY",
+    ADVERTISING = "ADVERTISING",
+};
