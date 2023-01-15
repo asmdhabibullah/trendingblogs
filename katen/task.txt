@@ -1,0 +1,15 @@
+01. logo/blog name
+02. tag line
+03. search
+04. menu
+05. blog post
+06. pagination
+07. sidebar
+08. footer
+09. single page
+	* content
+	* tag
+	* social icon
+	* author profile
+	* comment
+10. About/contact page
